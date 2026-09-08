@@ -36,7 +36,7 @@ jobs:
         run: |
           npm install --no-save \
             semantic-release@25.0.9 \
-            conventional-changelog-conventionalcommits@10.4.0
+            conventional-changelog-conventionalcommits@9.1.0
             
       - name: Run semantic-release (dry-run)
         id: check
@@ -215,7 +215,7 @@ jobs:
         run: |
           npm install --no-save \
             semantic-release@25.0.9 \
-            conventional-changelog-conventionalcommits@10.4.0
+            conventional-changelog-conventionalcommits@9.1.0
 
       - name: Run semantic-release
         env:
